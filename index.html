@@ -78,6 +78,27 @@
     border-top:1px solid var(--line);
   }
   .tbl-names mark{background:var(--accent-soft); color:var(--accent); border-radius:4px; padding:1px 3px;}
+  .contact-bar{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:14px 16px; margin-bottom:18px;
+  }
+  .contact-bar h2{
+    margin:0 0 10px; font-size:14px; color:var(--sub); font-weight:normal;
+  }
+  .contact-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:8px 0; border-top:1px solid var(--line);
+  }
+  .contact-row:first-of-type{border-top:none; padding-top:0;}
+  .contact-row .who{font-size:14.5px;}
+  .contact-row .who .side{
+    display:inline-block; background:var(--accent-soft); color:var(--accent);
+    border-radius:6px; padding:1px 7px; font-size:11.5px; margin-right:6px;
+  }
+  .contact-row a{
+    color:#fff; background:var(--accent); text-decoration:none;
+    border-radius:8px; padding:6px 12px; font-size:14px; white-space:nowrap;
+  }
   .empty-hint{color:var(--sub); font-size:13.5px; text-align:center; padding:20px 0;}
   .found-badge{
     background:var(--accent); color:#fff; font-size:11px; border-radius:6px;
@@ -94,6 +115,18 @@
 </header>
 
 <main>
+
+  <div class="contact-bar">
+    <h2>總召聯絡窗口(找不到新人時可直接聯絡)</h2>
+    <div class="contact-row">
+      <span class="who"><span class="side">女方</span>蔡尹絃</span>
+      <a href="tel:0988188618">0988188618</a>
+    </div>
+    <div class="contact-row">
+      <span class="who"><span class="side">男方</span>王翊竹</span>
+      <a href="tel:0984261070">0984261070</a>
+    </div>
+  </div>
 
   <div class="section">
     <h2><span class="num">1</span>招待注意事項</h2>
